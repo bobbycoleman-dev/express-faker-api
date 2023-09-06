@@ -28,9 +28,6 @@ const createCompany = () => {
 	});
 };
 
-// const newFakeUser = createUser();
-// const newFakeCompany = createCompany();
-
 app.get("/api/users/new", (req, res) => {
 	res.json(createUser());
 });
